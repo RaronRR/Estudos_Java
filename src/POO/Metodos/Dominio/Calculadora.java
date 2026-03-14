@@ -22,4 +22,30 @@ public class Calculadora {
         return  num01 / num02;
     }
 
+    public void alteraDoisNumeros(int num1, int num2){
+        num1 = 99;
+        num2 = 33;
+        System.out.println("Dentro do alteraDoisNumero:");
+        System.out.println("Num1"+ num1);
+        System.out.println("Num2"+ num2);
+
+    }
+
+    public void somaArray(int[] numero){
+        int soma = 0;
+        for (int num : numero){
+            soma += num;
+        }
+        System.out.println(soma);
+    }
+
+    public void somaVarArgs(int... numeros){
+        int soma = 0;
+        for (int num : numeros){
+            soma += num;
+        }
+        System.out.println(soma);
+    }
+
+
 }
