@@ -5,10 +5,9 @@ public enum TipoCliente {
     PESSOA_JURIDICA(2);
 
     private int valor;
-    private String nomeRelatorio;
+
 
     TipoCliente(String nomeRelatorio, int valor) {
-        this.nomeRelatorio = nomeRelatorio;
         this.valor = valor;
     }
 
